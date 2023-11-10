@@ -27,6 +27,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'app1',
+    'bootstrap4',
 ]
 
 MIDDLEWARE = [
@@ -64,14 +66,12 @@ WSGI_APPLICATION = 'proyecto.wsgi.application'
 
 DATABASES = {
  "default": {
-"ENGINE": "django.db.backends.postgresql",
-"NAME": "nombre_base",
-"USER":"tu_usuario_de_postgre",
-"PASSWORD":"guillermoavila",
-"HOST":"nombre_del_servidor"
-,
-"PORT":"5432"
-,
+ "ENGINE": "django.db.backends.postgresql",
+ "NAME": "postgres",
+ "USER":"postgres",
+ "PASSWORD":"guillermoavila",
+ "HOST":"localHost",
+ "PORT":"5432",
 }
 }
 
