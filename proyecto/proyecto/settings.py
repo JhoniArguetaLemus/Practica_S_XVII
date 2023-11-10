@@ -27,7 +27,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'app1',
+    
+    'app1', #agregamos la aplicacion que creamos 'app1'
     'bootstrap4',
 ]
 
@@ -65,6 +66,8 @@ WSGI_APPLICATION = 'proyecto.wsgi.application'
 
 
 DATABASES = {
+    
+    #conexion a postgreSQL
  "default": {
  "ENGINE": "django.db.backends.postgresql",
  "NAME": "postgres",
